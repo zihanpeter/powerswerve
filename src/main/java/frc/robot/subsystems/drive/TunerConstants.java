@@ -1,10 +1,3 @@
-// Copyright (c) 2025 FRC 5449
-// http://github.com/frc-team5449
-//
-// Use of this source code is governed by an MIT-style
-// license that can be found in the LICENSE file at
-// the root directory of this project.
-
 package frc.robot.subsystems.drive;
 
 import static edu.wpi.first.units.Units.*;
@@ -95,7 +88,7 @@ public class TunerConstants {
 
   public static final double kDriveGearRatio = 6.122448979591837;
   private static final double kSteerGearRatio = 21.428571428571427;
-  public static final Distance kWheelRadius = Millimeter.of(50);
+  public static final Distance kWheelRadius = Millimeter.of(50.5);
   public static final double kWheelRadiusMeter = kWheelRadius.in(Meter);
 
   public static final int kPigeonId = 50;
